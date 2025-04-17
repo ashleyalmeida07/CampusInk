@@ -16,14 +16,14 @@ export default function PublicationPage({ params }: { params: { id: string } }) 
     abstract:
       "A novel approach to optimize energy consumption using advanced machine learning algorithms and predictive analytics to reduce carbon footprint in industrial settings. This research presents a comprehensive framework that integrates real-time data analysis with adaptive control systems to achieve significant energy savings while maintaining operational efficiency.",
     authors: [
-      { name: "Priya Sharma", department: "Computer Science", image: "/placeholder.svg" },
-      { name: "Rahul Gupta", department: "Electrical Engineering", image: "/placeholder.svg" },
+      { name: "Alroy Sharma", department: "Computer Science", image: "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" },
+      { name: "Jason Gupta", department: "Electrical Engineering", image: "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=740" },
     ],
     date: "2023-03-15",
     type: "Research Paper",
     sdgs: [7, 9, 13],
     department: "Computer Science",
-    image: "/placeholder.svg?height=400&width=800&text=Energy+Systems",
+    image: "https://plus.unsplash.com/premium_photo-1683120966127-14162cdd0935?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     journal: "International Journal of Sustainable Computing",
     doi: "10.1234/ijsc.2023.0015",
     citations: 12,
@@ -79,7 +79,7 @@ export default function PublicationPage({ params }: { params: { id: string } }) 
 
           <div className="aspect-video relative rounded-lg overflow-hidden border">
             <Image
-              src={publication.image || "/placeholder.svg"}
+              src={"https://images.unsplash.com/photo-1568952433726-3896e3881c65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
               alt={publication.title}
               fill
               className="object-cover"
