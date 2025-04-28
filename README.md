@@ -166,4 +166,4 @@ Special thanks to the open-source community and Next.js team for enabling fast, 
 **Built with passion to enhance campus connectivity and collaboration!**
 
 ---
-[▶️ Watch Demo Video](https://github.com/ashleyalmeida07/CampusInk/blob/main/CampusInk_AshleyAlmeida_10227.mp4)
+[▶️ Watch Demo Video](https://drive.google.com/file/d/1WnlporJGIu7a8LDMeTm7eJmHDyqz657x/view?usp=sharing)
