@@ -105,7 +105,7 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <BookOpen className="h-6 w-6" />
-          <span className="font-bold text-xl">AcademicHub</span>
+          <span className="font-bold text-xl">CampusInk</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6">
@@ -193,7 +193,7 @@ export default function Header() {
               <div className="flex flex-col space-y-4 py-4">
                 <Link href="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
                   <BookOpen className="h-6 w-6" />
-                  <span className="font-bold text-xl">AcademicHub</span>
+                  <span className="font-bold text-xl">CampusInk</span>
                 </Link>
                 <div className="flex flex-col space-y-3">
                   {routes.map((route) => (
