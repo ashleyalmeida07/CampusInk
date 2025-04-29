@@ -152,7 +152,7 @@ export function DashboardLayout({ children, userRole }: DashboardLayoutProps) {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-30 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
+      {/* <header className="sticky top-0 z-30 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
         <Sheet open={isMobileNavOpen} onOpenChange={setIsMobileNavOpen}>
           <SheetTrigger asChild>
             <Button variant="outline" size="icon" className="md:hidden">
@@ -211,7 +211,8 @@ export function DashboardLayout({ children, userRole }: DashboardLayoutProps) {
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
-      </header>
+      </header> */}
+
       <div className="flex flex-1">
         <aside className="hidden w-64 border-r md:block">
           <div className="flex h-full flex-col gap-2 p-4">
